@@ -1,0 +1,47 @@
+product:
+  name: ""
+  age_range: ""
+  theme: ""
+  duration: ""
+  setup_time: ""
+
+cover:
+  title: ""
+  subtitle: ""
+  age_indicator: ""
+
+quick_start:
+  title: ""
+  steps: []
+
+story_intro:
+  title: ""
+  text: ""
+
+clues:
+  - number: 1
+    riddle: ""
+    answer: ""
+    parent_instruction: ""
+    location: ""
+    next_hint: ""
+
+finale:
+  title: ""
+  instruction: ""
+  celebration_text: ""
+
+diploma:
+  title: ""
+  recipient_name: "________"
+  achievement_text: ""
+  date_line: ""
+
+parent_tips:
+  title: ""
+  tips: []
+
+metadata:
+  product_type: ""
+  difficulty: ""
+  players: ""
