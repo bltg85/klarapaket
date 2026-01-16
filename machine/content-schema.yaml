@@ -1,0 +1,52 @@
+# Content Schema för KlaraPaket
+# Detta är kontraktet för alla produkter i systemet
+# Alla produkter måste följa denna struktur
+
+product:
+  name: ""                    # T.ex. "Skattjakt – Superhjältar"
+  age_range: ""               # T.ex. "5–7 år"
+  theme: ""                   # T.ex. "superhjältar", "pirater", "rymden"
+  duration: ""                # T.ex. "30–45 min"
+  setup_time: ""              # T.ex. "10 min"
+
+cover:
+  title: ""                   # Rubrik för förstasidan
+  subtitle: ""                # Underrubrik/beskrivning
+  age_indicator: ""           # Åldersindikator
+
+quick_start:
+  title: ""                   # Rubrik för snabbstart
+  steps: []                   # Lista med instruktionssteg (strings)
+
+story_intro:
+  title: ""                   # Rubrik för story-intro
+  text: ""                    # Introbild för barnen
+
+clues:                        # Lista med ledtrådar
+  - number: 0                 # Nummer (1, 2, 3...)
+    riddle: ""                # Gåta/fråga till barnen
+    answer: ""                # Rätt svar (för föräldern)
+    parent_instruction: ""    # Instruktion till föräldern
+    location: ""              # Vart ledtråden ska placeras (t.ex. "Vid köksfönstret")
+    next_hint: ""             # Ledtråd till nästa plats (valfritt)
+
+finale:
+  title: ""                   # Rubrik för finalen
+  instruction: ""             # Instruktion om var "skatten" ska vara
+  celebration_text: ""        # Text för när de hittat skatten
+
+diploma:
+  title: ""                   # Diplometitel (t.ex. "Superhjälte-diplom")
+  recipient_name: ""          # Platshållare för namn (t.ex. "________")
+  achievement_text: ""        # Text om vad de åstadkommit
+  date_line: ""               # Plats för datum (valfritt)
+
+parent_tips:
+  title: ""                   # Rubrik för föräldertips
+  tips: []                    # Lista med tips (strings)
+
+# Extra metadata (valfritt)
+metadata:
+  product_type: ""            # T.ex. "skattjakt", "quiz", "påskjakt"
+  difficulty: ""              # T.ex. "lätt", "medel", "svår"
+  players: ""                 # Antal deltagare (t.ex. "1–4 barn")

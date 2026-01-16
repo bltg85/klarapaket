@@ -1,0 +1,99 @@
+product:
+  name: "Skattjakt – Superhjältar"
+  age_range: "5–7 år"
+  theme: "superhjältar"
+  duration: "30–45 min"
+  setup_time: "10 min"
+
+cover:
+  title: "Skattjakt – Superhjältar"
+  subtitle: "En spännande äventyr där barnen får leka superhjältar och lösa gåtor för att hitta skatten."
+  age_indicator: "5–7 år"
+
+quick_start:
+  title: "Snabbstart"
+  steps:
+    - "Skriv ut alla ledtrådar och diplomet"
+    - "Göm ledtråd 1 vid startplatsen (t.ex. köksbordet)"
+    - "Följ instruktionerna på varje ledtråd för att gömma nästa"
+    - "Placera 'skatten' (godis/leksak) på slutplatsen"
+    - "Ge barnen ledtråd 1 och låt dem börja!"
+
+story_intro:
+  title: "Äventyret börjar"
+  text: "Ni är nu superhjältar på ett viktigt uppdrag! En skatt har försvunnit och ni måste lösa alla gåtor för att hitta den. Varje ledtråd leder er till nästa. Är ni redo att bli hjältar?"
+
+clues:
+  - number: 1
+    riddle: "Jag har fyra ben men kan inte gå. Du sitter på mig när du äter. Var är jag?"
+    answer: "Stol"
+    parent_instruction: "Göm denna ledtråd vid en stol i köket eller vardagsrummet."
+    location: "Vid köksstolen"
+    next_hint: "Letar du i badrummet? Kolla där du borstar tänderna!"
+
+  - number: 2
+    riddle: "Jag är vit och gör dig ren. Du använder mig varje morgon. Vad är jag?"
+    answer: "Tandborste"
+    parent_instruction: "Lägg ledtråd 2 i badrummet, nära tandborsten."
+    location: "I badrummet, vid handfatet"
+    next_hint: "Här lagras maten kall. Kolla där mammas grönsaker bor!"
+
+  - number: 3
+    riddle: "Jag är kall och full av mat. Du öppnar mig många gånger om dagen. Var är jag?"
+    answer: "Kylskåp"
+    parent_instruction: "Placera ledtråd 3 på kylskåpet eller nära kylskåpet."
+    location: "På kylskåpet"
+    next_hint: "Här sover ni om natten. Leta under kudden!"
+
+  - number: 4
+    riddle: "Jag är mjuk och du lägger huvudet på mig. Jag finns i ditt rum. Vad är jag?"
+    answer: "Kudde"
+    parent_instruction: "Göm ledtråd 4 under en kudde i barnets sovrum."
+    location: "Under kudden i sovrummet"
+    next_hint: "Här finns alla era böcker. Kolla bland leksakerna!"
+
+  - number: 5
+    riddle: "Jag är full av böcker och leksaker. Du leker här ofta. Var är jag?"
+    answer: "Leksaksrum/vardagsrum"
+    parent_instruction: "Lägg ledtråd 5 bland leksakerna eller på bokhyllan."
+    location: "Bland leksakerna"
+    next_hint: "Här tar ni hand om smutsiga kläder. Leta där!"
+
+  - number: 6
+    riddle: "Jag är full av kläder som är smutsiga. Du stoppar in dem här. Vad är jag?"
+    answer: "Tvättkorgen"
+    parent_instruction: "Placera ledtråd 6 i eller nära tvättkorgen."
+    location: "Vid tvättkorgen"
+    next_hint: "Sista ledtråden! Leta där ni förvarar era ytterkläder!"
+
+  - number: 7
+    riddle: "Jag hänger på väggen och håller era jackor. Var är jag?"
+    answer: "Hängare/hall"
+    parent_instruction: "Göm ledtråd 7 vid ytterdörren eller i hallen."
+    location: "Vid ytterdörren"
+    next_hint: "Grattis! Nu är det dags att hitta skatten. Den ligger där ni brukar sitta och läsa!"
+
+finale:
+  title: "Hitta skatten!"
+  instruction: "Placera 'skatten' (en påse godis, klistermärken eller en liten leksak) i soffan eller på läsplatsen i vardagsrummet."
+  celebration_text: "Grattis, superhjältar! Ni har löst alla gåtor och hittat skatten. Nu är ni officiella superhjältar!"
+
+diploma:
+  title: "Superhjälte-diplom"
+  recipient_name: "________"
+  achievement_text: "Detta diplom intygar att du har löst alla gåtor och hittat skatten som en riktig superhjälte! Du är modig, smart och redo för fler äventyr."
+  date_line: "Datum: ________"
+
+parent_tips:
+  title: "Tips till föräldern"
+  tips:
+    - "Läs gåtorna högt för yngre barn – de kan behöva hjälp att förstå"
+    - "Om barnen fastnar, ge ledtrådar istället för att ge svaret direkt"
+    - "Anpassa svårighetsgraden – enklare gåtor för yngre barn"
+    - "Ha gärna en liten 'skatt' redo – godis, klistermärken eller en liten leksak fungerar bra"
+    - "Ta foton under tiden! Barnen kommer vilja se bilderna senare"
+
+metadata:
+  product_type: "skattjakt"
+  difficulty: "lätt"
+  players: "1–4 barn"
